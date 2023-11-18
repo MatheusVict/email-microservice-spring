@@ -18,3 +18,9 @@ spring:
           auth: true
           starttls:
             enable: true
+  rabbitmq:
+    addresses: ${RABBITMQURL}
+broker:
+  queue:
+    email:
+      name: ms.email
