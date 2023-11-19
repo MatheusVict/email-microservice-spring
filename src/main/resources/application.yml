@@ -24,3 +24,7 @@ broker:
   queue:
     email:
       name: ms.email
+logging:
+  level:
+    io.matheusvictor.emailmicroservice: TRACE
+    #root: DEBUG
